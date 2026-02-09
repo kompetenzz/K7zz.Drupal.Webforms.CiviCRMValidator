@@ -1,0 +1,7 @@
+k7zz_webform_civicrm_activity_lock.check:
+  path: '/k7zz-webform-activity-lock/check'
+  defaults:
+    _controller: '\Drupal\k7zz_webform_civicrm_activity_lock\Controller\ActivityCheckController::check'
+  requirements:
+    _permission: 'access content'
+  methods: [POST]

@@ -1,0 +1,8 @@
+name: 'K7zz Webform CiviCRM Activity Lock'
+type: module
+description: 'Lock webform if CiviCRM activity with specific type and status exists for contact or employer'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - webform:webform
+  - civicrm:civicrm

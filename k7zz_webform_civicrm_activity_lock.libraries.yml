@@ -1,0 +1,8 @@
+activity-lock:
+  version: 1.x
+  js:
+    js/activity-lock.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

@@ -1,0 +1,4 @@
+services:
+  k7zz_webform_civicrm_activity_lock.activity_checker:
+    class: Drupal\k7zz_webform_civicrm_activity_lock\Service\ActivityChecker
+    arguments: ['@civicrm', '@webform_civicrm.utils']
