@@ -1,0 +1,17 @@
+{
+  "name": "drupal/k7zz_webform_civicrm_activity_lock",
+  "type": "drupal-custom-module",
+  "description": "Locks a webform when a CiviCRM activity with a specific type and status already exists for a contact or employer.",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.1",
+    "drupal/core": "^10 || ^11",
+    "drupal/webform": "*",
+    "civicrm/civicrm-core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\k7zz_webform_civicrm_activity_lock\\": "src/"
+    }
+  }
+}
